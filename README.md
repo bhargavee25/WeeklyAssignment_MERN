@@ -19,6 +19,7 @@ Use JavaScript to complete the tasks below.Ensure proper logic and functionality
 5. Write a function square that takes a number as input and returns its square.
 
 Instructions for Week 3 include:
+
 Complete the following React.js assignments using functional components and Tailwind CSS for styling. Use the useState hook where necessary.
 1. Write a React component called TextUpdater with an input field. Use the useState hook to update and display the text as the user types.
 2. Create a React form with a text input and a submit button. When submitted, log the input value to the console.
