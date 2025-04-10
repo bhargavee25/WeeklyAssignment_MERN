@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Tasks</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .output {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>JavaScript Tasks Output</h2>
+  <div class="output" id="adultCheck"></div>
+  <div class="output" id="operations"></div>
+  <div class="output" id="evenOdd"></div>
+  <div class="output" id="numberArray"></div>
+  <div class="output" id="squareOutput"></div>
+
+  <script>
+    // Task 1: Age and adult check
+    let age = 25;
+    let isAdult = age >= 18;
+
+    // Task 2: x and y operations
+    let x = 10;
+    let y = 5;
+    let addition = x + y;
+    let multiplication = x * y;
+    let modulus = x % y;
+
+    // Task 3: Even or Odd
+    let n = 7; // Change this number to test others
+    let isEven = (n % 2 === 0) ? "Even" : "Odd";
+
+    // Task 4: For loop to store numbers 1 to 5
+    let numbers = [];
+    for (let i = 1; i <= 5; i++) {
+      numbers.push(i);
+    }
+
+    // Task 5: Function to square a number
+    function square(num) {
+      return num * num;
+    }
+
+    // Displaying the output in the HTML
+    document.getElementById("adultCheck").textContent = `Is age ${age} an adult? → ${isAdult}`;
+    document.getElementById("operations").textContent =
+      `x = ${x}, y = ${y} → Addition: ${addition}, Multiplication: ${multiplication}, Modulus: ${modulus}`;
+    document.getElementById("evenOdd").textContent = `The number ${n} is ${isEven}`;
+    document.getElementById("numberArray").textContent = `Numbers from 1 to 5: [${numbers.join(", ")}]`;
+    document.getElementById("squareOutput").textContent = `Square of 4 is: ${square(4)}`;
+  </script>
+
+</body>
+</html>
