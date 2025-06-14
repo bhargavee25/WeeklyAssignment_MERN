@@ -1,4 +1,4 @@
-This is a repository containing weekly assignments for SMARTBRIDGE Fullstack Development(MERN) with MongoDB Developer certification.
+## This is a repository containing weekly assignments for SMARTBRIDGE Fullstack Development(MERN) with MongoDB Developer certification.
 
 Instructions for Week 1 include:
 1. Create a webpage with a title, a main heading, and two paragraphs.
